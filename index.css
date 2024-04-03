@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Colors start 
+     Greys : #555, #333
+     Primary : #e67e22
+     Tint : #fdf2e9
+     Shade : #cf711f
+ Colors end */
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  color: #555;
+  font-weight: 400;
+}
+
+/* HEADER SECTION STARTS */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  padding: 4.8rem;
+  background-color: #fdf2e9;
+}
+
+.logo img {
+  width: 24.8rem;
+}
+
+.header-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+}
+
+.header-list li a:link,
+.header-list li a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.header-list li a:hover,
+.header-list li a:active {
+  color: #555;
+}
+
+.header-list li:last-child a:link,
+.header-list li:last-child a:visited {
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+  background-color: #e67e22;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+}
+
+.header-list li:last-child a:hover,
+.header-list li:last-child a:active {
+  background-color: #8a4c14;
+  color: #fff;
+}
+/* HEADER SECTION STARTS */
+
+/* HERO SECTION STARTS */
+.hero-section {
+  background-color: #fdf2e9;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 5.6rem 4.8rem 0 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.8rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-heading {
+  font-size: 3.2rem;
+  letter-spacing: -0.5px;
+  margin-bottom: 2.6rem;
+  color: #333;
+}
+
+.summary-text {
+  font-size: 1.6rem;
+  letter-spacing: -0.5px;
+  color: #333;
+  margin-bottom: 2.8rem;
+  line-height: 1.5;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  border: 1px solid #333;
+  padding: 1rem 1.6rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.btn.btn-eat:link,
+.btn.btn-eat:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.btn.btn-eat:hover,
+.btn.btn-eat:active {
+  background-color: #8a4c14;
+  color: #fff;
+}
+
+.btn.btn-learn:link,
+.btn.btn-learn:visited {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn.btn-learn:hover,
+.btn.btn-learn:active {
+  background-color: #fdf2e9;
+  color: #333;
+}
+
+.margin-right-sm {
+  margin-right: 1.2rem;
+}
+
+.user-profiles {
+  margin-top: 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profiles {
+  display: flex;
+}
+
+.profiles img {
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: -9px;
+  border: 3px solid #fff;
+}
+
+.profile-text {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.highlight-count {
+  color: #cf711f;
+  font-weight: 700;
+}
+/* HERO SECTION ENDS */
