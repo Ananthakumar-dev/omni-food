@@ -176,3 +176,164 @@ body {
   font-weight: 700;
 }
 /* HERO SECTION ENDS */
+
+/* How it works section starts */
+.section-how,
+.section-featured,
+.section-meal {
+  max-width: 130rem;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 4.8rem;
+}
+
+.container {
+  margin-bottom: 2.6rem;
+}
+
+.subheading {
+  display: block;
+  color: #cf711f;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.heading-secondary {
+  color: #333;
+  font-size: 3.2rem;
+  letter-spacing: -0.5px;
+}
+
+.grid {
+  display: grid;
+  column-gap: 2.4rem;
+  row-gap: 6.8rem;
+}
+
+.grid--2-columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-align-v {
+  align-items: center;
+  justify-items: center;
+}
+
+.works-number {
+  display: inline-block;
+  font-size: 8.6rem;
+  color: #aaa;
+}
+
+.works-heading {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.works-para {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.section-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.section-img-box::before {
+  content: "";
+  background-color: #fdf2e9;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.section-img {
+  width: 35%;
+}
+/* How it works section ends */
+
+/* Featured images section starts */
+.featured-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured-images img {
+  width: 15rem;
+  filter: brightness(0);
+  opacity: 70%;
+}
+/* Featured images section ends */
+
+/* meals section starts */
+.meals img {
+  width: 100%;
+}
+
+.meal-content {
+  margin-top: 1.5rem;
+}
+
+.tags {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 10rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.tag--veg {
+  background-color: rgb(25, 130, 25);
+}
+
+.tag--vegan {
+  background-color: rgb(83, 235, 83);
+}
+
+.tag--nonveg {
+  background-color: rgb(195, 47, 47);
+}
+
+.meal-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.meal-attributes {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 0.5rem;
+}
+
+.meal-attribute {
+  font-size: 1.2rem;
+}
+
+/* meals section ends */
