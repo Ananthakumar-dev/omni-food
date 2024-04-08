@@ -180,14 +180,15 @@ body {
 /* How it works section starts */
 .section-how,
 .section-featured,
-.section-meal {
+.section-meal,
+.section-pricing {
   max-width: 130rem;
   background-color: #fff;
   margin: 0 auto;
   padding: 4.8rem;
 }
 
-.container {
+.container:not(:last-child) {
   margin-bottom: 2.6rem;
 }
 
@@ -442,3 +443,97 @@ body {
   transform: scale(1.1);
 }
 /* testimonials section ends */
+
+/* pricing section starts */
+.pricing {
+  font-size: 1.6rem;
+  border: 2px solid #ddd;
+  padding: 2.8rem;
+  border-radius: 0.7rem;
+}
+
+.pricing header {
+  text-align: center;
+}
+
+.plan-name {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #cf711f;
+  margin-bottom: 1rem;
+}
+
+.plan-price {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.plan-price span {
+  font-size: 2rem;
+}
+
+.plan-desc {
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.plan-benefits {
+  list-style-type: none;
+  padding: 0 2rem;
+  margin-bottom: 3rem;
+  line-height: 2;
+}
+
+.plan-benefits li {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+}
+
+.pricing-icon {
+  color: #cf711f;
+}
+
+.pricing-button {
+  text-align: center;
+}
+
+.btn-eat-well:link,
+.btn-eat-well:visited {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.btn-eat-well:hover,
+.btn-eat-well:active {
+  background-color: #8a4c14;
+  color: #fff;
+}
+
+.pricing-later {
+  justify-self: end;
+}
+
+.pricing-primary {
+  justify-self: start;
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing-primary::after {
+  content: "BEST VALUE";
+  position: absolute;
+  top: 2.4rem;
+  right: -2.4rem;
+  padding: 0.5rem 2rem;
+  background-color: rgb(255, 255, 0);
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 700;
+  transform: rotate(45deg);
+}
+
+/* pricing section ends */
