@@ -1,0 +1,19 @@
+/* 16px = 1rem = 1em, 1060 / 16 = 66.25 (67em)  */
+@media (max-width: 86em) {
+  .header-list li a {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 67em) {
+  .hero-heading h1 {
+    font-size: 32px;
+  }
+  .hero {
+    padding: 5.6em 4.8em 1.2em 4.8em;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+}
